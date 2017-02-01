@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app=" filterApp">
+		<title>FilApp</title>
+		<head>
+						<meta charset="utf-8">
+						<meta name="viewport" content="width=device-width, initial-scale=1">
+						<link rel="stylesheet" type="text/css" href="./css/editable.css">
+			</head>
+
+					<body ng-controller="filCtrl">
+						<div class ="layout">
+						<h1>Registration</h1>
+									<div class="box"><label >:   <input type="text" id="textbox" ng-model="filfirst" placeholder="your firstname" style="text-align:center;">
+									<div class="box"><label>:   <input type="text" id="textbox" ng-model="fillast" placeholder="your lastname" style="text-align:center;">
+									<div class="box"><label>:  <input type="text" id="textbox" ng-model="filmid" placeholder="your middlename" style="text-align:center;">
+									<div class="box"><label>:   <input type="password" id="textbox" ng-model="filpass" placeholder="your password" style="text-align:center;">
+									<div class="box"><label>:  <input type="text" id="textbox" ng-model="filgender" data-toggle="dropdown" placeholder="your gender" style="text-align:center;">
+									<div class="box"><label>: <input type="text" id="textbox" ng-model="filbirth" placeholder="your birthdate" style="text-align:center;">
+
+								<input type="button" id="button" value="Register" ng-click="pushData()"></input>
+									</div>
+
+									<script type="text/javascript" src="js/angular.min.js"></script>
+									<script type="text/javascript" src="js/editable.js"></script>
+									<script type="text/javascript" src="js/jquery.min.js"></script>
+					</body>
+				</div>
+
+
+
+</html>
